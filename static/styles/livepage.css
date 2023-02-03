@@ -1,0 +1,73 @@
+/* body{
+    background-image: url(../images/bg_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#header{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+
+    background: #D1A0A0;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    top: 650px;
+
+    background: #D1A0A0;
+}
+
+.container{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    
+}
+
+.title{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+#leftpart{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.homebutton{
+    position: absolute;
+    top: 15px;
+    text-align: right;
+    right: 80px;
+    height: 40px;
+    width: 40px;
+}
+
+.uploadbutton{
+    position: absolute;
+    top: 15px;
+    text-align: right;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+#myVideo{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    /* right: 0;
+    bottom: 0; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

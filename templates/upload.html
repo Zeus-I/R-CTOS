@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            Upload Clothes
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" type="text/css" href="../static/styles/uploadpage.css">
+    </head>
+    <body>
+        <div id="header">
+            <div id="head">
+                <img class="title" src="{{ url_for('static', filename='images/CTOS.svg') }}">
+                <a href="/">
+                    <img class="homebutton" src="{{ url_for('static', filename='images/homeicon.png') }}">
+                </a>
+            </div>
+        </div>
+        <div id="heading">
+            Upload the cloth image you want to try on
+        </div>
+        <div class="drag-area">
+            <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+            <header>Drag & Drop to Upload Image</header>
+            <span>OR</span>
+            <button>Browse File</button>
+            <input type="file" hidden>
+        </div>
+        <div class="afterdrag">
+            <a href="/upload">
+                <input type="button" value="Clear file">
+            </a>
+	    <a href="/tryon">
+            <input type="submit" value="Upload">
+	    </a>
+        </div>>
+        <footer id="footer">
+            <div id="leftpart">
+                <h2>About Us</h2>
+                <p>Happy birthday</p>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="../static/js/upload_file.js"></script>
+    </body>
+</html>
